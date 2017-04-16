@@ -36,7 +36,7 @@ Once you have got the source, you can install the component in two ways.
 ### One Line Presentation ###
 
 ```objectivec
-#import "UIViewController+ADFlipTransition.h"
+# import "UIViewController+ADFlipTransition.h"
 
 @implementation MyViewController 
 
@@ -51,7 +51,7 @@ Once you have got the source, you can install the component in two ways.
 Then to dismiss it:
 
 ```objectivec
-#import UIViewController+ADFlipTransition.h
+# import UIViewController+ADFlipTransition.h
 
 @implementation FlippedViewController
 
@@ -69,7 +69,7 @@ Then to dismiss it:
 If the index path used refers to a cell which is off-screen, the cell will be scrolled into place (not animated).
 
 ```objectivec
-#import "UICollectionViewController+ADFlipTransition.h"
+# import "UICollectionViewController+ADFlipTransition.h"
 
 @implementation MyCollectionViewController 
 
@@ -84,7 +84,7 @@ If the index path used refers to a cell which is off-screen, the cell will be sc
 Dismiss back to a collection/table view controller the same as normal, or you can update the index path if needed.
 
 ```objectivec
-#import UIViewController+ADFlipTransition.h
+# import UIViewController+ADFlipTransition.h
 
 @interface FlippedViewController ()
 
